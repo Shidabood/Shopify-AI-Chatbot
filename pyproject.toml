@@ -18,6 +18,7 @@ dependencies = [
 
 [tool.uv]
 package = false
+python-preference = "only-system"
 
 [dependency-groups]
 dev = [
