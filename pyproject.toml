@@ -16,8 +16,11 @@ dependencies = [
     "uvicorn[standard]>=0.54.0",
 ]
 
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
 [tool.uv]
-package = false
+package = true
 python-preference = "only-system"
 
 [dependency-groups]
